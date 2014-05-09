@@ -12,36 +12,44 @@ Requires PHP 5.3 or above.
 1. Include the class in your script: `require('simple-ansi-colors.php');`
 2. Output some text: `echo Ansi::tagsToColors('<green>Hello <yellow>World!');`
 
+Note that unlike HTML, there are no closing tags.  Simply use `<reset>` to return the color to the default.  For example...
+
+```
+<green>This text will be green. <reset>This text will return to the default color.
+```
+
 # Supported tags
 
- <black>
- <red>
- <green>
- <yellow>
- <blue>
- <magenta>
- <cyan>
- <white>
- <gray>
- <darkRed>
- <darkGreen>
- <darkYellow>
- <darkBlue>
- <darkMagenta>
- <darkCyan>
- <darkWhite>
- <darkGray>
- <bgBlack>
- <bgRed>
- <bgGreen>
- <bgYellow>
- <bgBlue>
- <bgMagenta>
- <bgCyan>
- <bgWhite>
- <bold>
- <italics>
- <reset>
+```
+<black>
+<red>
+<green>
+<yellow>
+<blue>
+<magenta>
+<cyan>
+<white>
+<gray>
+<darkRed>
+<darkGreen>
+<darkYellow>
+<darkBlue>
+<darkMagenta>
+<darkCyan>
+<darkWhite>
+<darkGray>
+<bgBlack>
+<bgRed>
+<bgGreen>
+<bgYellow>
+<bgBlue>
+<bgMagenta>
+<bgCyan>
+<bgWhite>
+<bold>
+<italics>
+<reset>
+```
 
 Run `php demo.php` to view a sample of all the options available.  In consoles with ANSI color support, you'll see the following...
 
