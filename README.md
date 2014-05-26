@@ -1,11 +1,11 @@
-Simple Ansi Colors in PHP
+Simple ANSI Colors in PHP
 ==================
 
 Simple PHP class for converting basic HTML-like color tags into ANSI escape codes for use in console apps and scripts.  Auto-detection for Windows/Ansicon users included.
 
 Version 1.0.0
-
-Requires PHP 5.3 or above.
+<br>MIT Licence
+<br>Requires PHP 5.3 or above.
 
 # How to use
 

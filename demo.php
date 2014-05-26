@@ -1,5 +1,11 @@
 <?php
-require('simple-ansi-colors.php');
+
+// If using Composer
+// require('vendor/autoload.php');
+
+// If not using Composer
+require('Ansi.php');
+
 echo Ansi::tagsToColors("<black>< black >\r\n");
 echo Ansi::tagsToColors("<red>< red >\r\n");
 echo Ansi::tagsToColors("<green>< green >\r\n");
