@@ -7,7 +7,7 @@ Can be disabled through a single variable so that no colors are output (such as 
 
 Auto-detection for Windows/ANSICON users included. Colors are disabled by default on Windows unless ANSICON is detected.
 
-Version 1.0.0
+Version 1.0.1
 <br>MIT Licence
 <br>Requires PHP 5.3 or above.
 
